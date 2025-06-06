@@ -455,6 +455,139 @@
             width: 85%;
             margin: auto;
         }
+        @media (max-width: 760px){
+            header{
+            position: relative;
+            background-image: url(img/o-ato-da-criacao.png);
+            height: 50vw;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            opacity:49%;
+            box-shadow: 0px 0px 50px black;
+            }
+            h1.classicismo{
+            position: absolute;
+            z-index: 2;
+            top: 8vw;
+            color: rgb(65, 33, 16);
+            left: 49%;
+            transform: translate(-50%);
+            font-size: 21vw;
+            font-family: "Monsieur La Doulaise", cursive;
+            font-weight: normal;
+            }
+            .nascimento{
+            text-align: justify;
+            padding-top: 5vw;
+            box-shadow: inset 0px 0px 70px rgba(0, 0, 0, 0.881);
+            height: 560vw;
+            background-color: rgb(255, 240, 222);
+            }
+            .nascimento  h1{
+            font-size: 5.3vw;
+            color: rgb(50, 24, 10) ;
+            text-align: center;
+            margin-top: 4vw;
+            }
+            .text-barrinha{
+            display: none;
+            }
+            .nascimento  h2{
+            color:  rgb(65, 33, 16);
+            font-size: 4vw;
+            margin-top: 0.8vw;
+            text-align: center;
+            margin-top: 5vw;
+            }
+            .card > h2{
+            color: white;
+            }
+            .container{
+            display: block;
+            }
+            .card{
+            width: 40vw;
+            background-color: #453419;
+            height: 40vw;
+            border-radius: 50%;
+            transition: 0.7s;
+            box-shadow: 6px 15px 30px rgba(0, 0, 0, 0.863);
+            color: white;
+            margin: auto;
+            margin-bottom: 10vw;
+            margin-top: 10vw;
+            }
+            .card:hover{
+                width: 60vw;
+                height: 70vw;
+            }
+            .card:hover .img{
+                width: 25vw;
+                height: 25vw;
+                border-radius: 50%;
+                margin: auto;
+            }
+            .card > h2{
+                margin-top: 8vw;
+            }
+            .img{
+            display: block;
+            width: 40vw;
+            height: 40vw;
+            border-radius: 50%;
+            object-fit: cover;
+            transition: 0.7s;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.71);
+            margin: auto;
+            }
+            h2.text-idade-media{
+                font-size: 5vw;
+            }
+            h2.text-seculo-xiv{
+                font-size: 5vw;
+            }
+            h2.text-humanismo{
+                font-size: 5vw;
+            }
+            div.humanismo{
+                display: block;
+                margin: auto;
+                width: 70vw;
+                height: 10vw;
+                margin-top: 7vw;
+            }
+            div.humanismo > img{
+                display: block;
+                width: 70vw;
+                margin: auto;
+                margin-top: 7vw;
+            }
+            div.humanismo p{
+                font-size: 3vw;
+            }
+            div.humanismo h2{
+                color: white;
+                text-align: left;
+                margin-left: 6vw;
+                margin-bottom: 3vw;
+            }
+            div.humanismo ul{
+                font-size: 3vw;
+                margin: auto;
+                width: 75%;
+            }
+            div.humanismo .p2{
+                font-size: 3vw;
+            }
+            div.humanismo:hover{
+                width: 70vw;
+                height: 150vw;
+            }
+            div.humanismo:hover img{
+                transform: scale(0.8);
+            }
+        }
     </style>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
@@ -468,7 +601,7 @@
     </header>
     <h1 class="classicismo">Classicismo</h1>
     <section class="nascimento">
-        <h1>____________________ NASCIMENTO DO CLASSICISMO____________________</h1>
+        <h1><span class="text-barrinha">____________________</span>NASCIMENTO DO CLASSICISMO<span class="text-barrinha">____________________</span></h1>
         <h2> Transição da Idade Média para a Idade Moderna</h2>
 
         <h2 class="text-idade-media">_______Durante a Idade Média_______</h2>
